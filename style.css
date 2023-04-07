@@ -1,0 +1,95 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(147, 219, 219);
+}
+
+.profil {
+  padding: 30px 50px 0 50px;
+}
+
+.name_div {
+  text-align: center;
+}
+
+.user_img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.user_name {
+  font-size: 36px;
+  padding-bottom: 10px;
+  margin: 20px 0;
+  border-bottom: 2px solid black;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.content_header {
+  font-size: 18px;
+  padding-bottom: 5px;
+  margin: 0 0 0 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+}
+
+.content_list {
+  padding: 0 10px;
+  margin: 10px 0;
+  list-style-type: none;
+}
+
+.content_item {
+  padding: 5px 0;
+}
+
+.about {
+  padding: 40px;
+}
+
+.box_header {
+  font-size: 18px;
+  padding-bottom: 5px;
+  margin: 0 0 0 10px;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+}
+
+.box_list {
+  padding: 0 0 0 10px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.box_item {
+  display: flex;
+  justify-content: space-around;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.box_name {
+  width: 150px;
+}
+
+.box_time {
+  display: block;
+  font-weight: bold;
+  color: black;
+}
+
+.box_about{
+  width: 600px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
